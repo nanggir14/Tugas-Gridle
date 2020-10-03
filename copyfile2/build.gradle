@@ -1,6 +1,6 @@
 buildDir = "C:/Users/ASUS/Documents/VS Code/helloworld/copyfile"
 task copyReportsForArchiving(type: Copy) {
     from "$buildDir/report"
-    include "*.pdf"
+    include "**/*.pdf"
     into "$buildDir/toArchip"
 }
