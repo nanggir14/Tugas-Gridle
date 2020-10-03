@@ -1,0 +1,7 @@
+buildDir = "C:/Users/ASUS/Documents/VS Code/helloworld/movefile"
+task moveReports {
+    doLast {
+        ant.move file: "${buildDir}/report",
+                todir: "${buildDir}/toArchip"
+    }
+}

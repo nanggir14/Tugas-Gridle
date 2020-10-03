@@ -1,0 +1,4 @@
+buildDir = "C:/Users/ASUS/Documents/VS Code/helloworld/deletefile/toArchip"
+task myClean(type: Delete) {
+    delete buildDir
+}

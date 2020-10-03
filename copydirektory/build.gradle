@@ -1,0 +1,7 @@
+buildDir = "C:/Users/ASUS/Documents/VS Code/helloworld/copydirektory"
+task copyReportsDirForArchiving2(type: Copy) {
+    from ("$buildDir") {
+        include "report/**"
+    }
+    into "$buildDir/toArchip"
+}

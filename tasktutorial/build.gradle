@@ -1,0 +1,13 @@
+task namaTask
+
+namaTask {
+    doLast {
+        println "Action pertama ditambahakan ke dalam task."
+    }
+}
+
+namaTask {
+    doLast {
+        println "Action kedua ditambahkan ke dalam task."
+    }
+}
