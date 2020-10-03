@@ -4,6 +4,8 @@ task extractDatabase {
     }
 }
 
+extractDatabase.doLast{println 'Closing database connection...'}
+
 extractDatabase {
     doFirst {println 'Connecting to the database...'}
     doFirst {println 'Setting up connection to the database...'}
