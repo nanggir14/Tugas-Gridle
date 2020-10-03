@@ -1,4 +1,6 @@
 buildDir = "C:/Users/ASUS/Documents/VS Code/helloworld/deletefile/toArchip"
-task myClean(type: Delete) {
-    delete buildDir
+task cleanTempFiles(type: Delete) {
+    delete fileTree("$buildDir").mathing {
+        include "**/*.pdf"
+    }
 }
