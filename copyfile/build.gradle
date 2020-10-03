@@ -1,5 +1,5 @@
 buildDir = "C:/Users/ASUS/Documents/VS Code/helloworld/copyfile"
-task copyReport(type: Copy) {
-    from file("$buildDir/report/AR10FIS0499.pdf")
-    into file("$buildDir/toArchip")
+task copyReport2(type: Copy) {
+    from "$buildDir/report/AR10FIS0499.pdf"
+    into "$buildDir/toArchip"
 }
