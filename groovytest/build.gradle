@@ -1,4 +1,4 @@
-task upperCase (dependsOn:"counting") {
+task upperCase {
     doLast {
         def someText = 'I am Gradle'
 
