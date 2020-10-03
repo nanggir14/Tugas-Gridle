@@ -6,4 +6,5 @@ task extractDatabase {
 
 extractDatabase {
     doFirst {println 'Connecting to the database...'}
+    doFirst {println 'Setting up connection to the database...'}
 }
